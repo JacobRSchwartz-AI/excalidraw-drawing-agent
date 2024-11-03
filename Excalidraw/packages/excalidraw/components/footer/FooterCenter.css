@@ -1,0 +1,17 @@
+.footer-center {
+  pointer-events: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-margin-end: 0.6rem;
+          margin-inline-end: 0.6rem;
+}
+
+.footer-center > * {
+  pointer-events: var(--ui-pointerEvents);
+}
+/*# sourceMappingURL=FooterCenter.css.map */

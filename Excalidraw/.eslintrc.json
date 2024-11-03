@@ -1,0 +1,9 @@
+{
+  "extends": ["@excalidraw/eslint-config", "react-app"],
+  "rules": {
+    "import/no-anonymous-default-export": "off",
+    "no-restricted-globals": "off",
+    "prettier/prettier": ["error", { "endOfLine": "auto" }],
+    "@typescript-eslint/consistent-type-imports": ["error", { "prefer": "type-imports", "disallowTypeAnnotations": false, "fixStyle": "separate-type-imports" }]
+  }
+}

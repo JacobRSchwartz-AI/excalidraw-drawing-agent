@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACE,WADS,CACT,OAAO,CAAC;EACN,SAAS,CAAA,EAAC;EACV,UAAU,EAAE,UAAU;EACtB,gBAAgB,EAAE,sBAAsB;EACxC,UAAU,EAAE,oBAAoB;EAChC,aAAa,EAAE,uBAAuB;EACtC,OAAO,EAAE,0CAA0C;EACnD,QAAQ,EAAE,QAAQ;EAClB,UAAU,EAAE,2BAA2B;CAKxC;;AAdH,AAWI,WAXO,CACT,OAAO,AAUJ,SAAS,CAAC;EACT,UAAU,EAAE,IAAI;CACjB",
+    "sources": [
+        "Island.scss"
+    ],
+    "names": [],
+    "file": "Island.css"
+}

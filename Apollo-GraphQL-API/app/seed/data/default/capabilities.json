@@ -1,0 +1,177 @@
+[
+  {
+    "_id": "6670ab02f446b4f1a67b332e",
+    "name": " Arrow Capability",
+    "logicalCollection": "67200e060a342cc6ff42dd22",
+    "alias": "ArrowCapability",
+    "llmModel": "CLAUDE_3_5_SONNET_V2",
+    "description": "This is a description for  Arrow Capability agent.",
+    "prompts": [
+      "6670ab02f446b4f1a67b32f6",
+      "6670ab02f446b4f1a67b32f8",
+      "6670ab02f446b4f1a67b3300",
+      "6695d849888b8bcf4b03be32"
+    ],
+    "outputMode": "SYNCHRONOUS_EXECUTION_AGGREGATE",
+    "subscriptionFilter": null,
+    "outputFilter": null,
+    "createdAt": "2024-06-17T21:30:42.597Z",
+    "updatedAt": "2024-10-29T17:12:52.248Z",
+    "__v": 0
+  },
+  {
+    "_id": "6670ab02f446b4f1a67b3330",
+    "name": " Function Capability",
+    "logicalCollection": "67200e060a342cc6ff42dd22",
+    "alias": "FunctionCapability",
+    "llmModel": "CLAUDE_3_5_SONNET_V2",
+    "description": "This is a description for  Function Capability agent.",
+    "prompts": [
+      "6670ab02f446b4f1a67b32f6",
+      "6670ab02f446b4f1a67b32f8",
+      "6670ab02f446b4f1a67b32f9",
+      "6695d849888b8bcf4b03be32"
+    ],
+    "outputMode": "SYNCHRONOUS_EXECUTION_AGGREGATE",
+    "subscriptionFilter": null,
+    "outputFilter": null,
+    "createdAt": "2024-06-17T21:30:42.617Z",
+    "updatedAt": "2024-10-29T17:12:52.248Z",
+    "__v": 0
+  },
+  {
+    "_id": "6670ab02f446b4f1a67b3332",
+    "name": " Line Capability",
+    "logicalCollection": "67200e060a342cc6ff42dd22",
+    "alias": "LineCapability",
+    "llmModel": "CLAUDE_3_5_SONNET_V2",
+    "description": "This is a description for  Line Capability agent.",
+    "prompts": [
+      "6670ab02f446b4f1a67b32f6",
+      "6670ab02f446b4f1a67b32f8",
+      "6670ab02f446b4f1a67b32fa",
+      "6695d849888b8bcf4b03be32"
+    ],
+    "outputMode": "SYNCHRONOUS_EXECUTION_AGGREGATE",
+    "subscriptionFilter": null,
+    "outputFilter": null,
+    "createdAt": "2024-06-17T21:30:42.625Z",
+    "updatedAt": "2024-10-29T17:12:52.248Z",
+    "__v": 0
+  },
+  {
+    "_id": "6670ab02f446b4f1a67b3334",
+    "name": " Point Capability",
+    "logicalCollection": "67200e060a342cc6ff42dd22",
+    "alias": "PointCapability",
+    "llmModel": "CLAUDE_3_5_SONNET_V2",
+    "description": "This is a description for  Point Capability agent.",
+    "prompts": [
+      "6670ab02f446b4f1a67b32f6",
+      "6670ab02f446b4f1a67b32f8",
+      "6670ab02f446b4f1a67b32fb",
+      "6695d849888b8bcf4b03be32"
+    ],
+    "outputMode": "SYNCHRONOUS_EXECUTION_AGGREGATE",
+    "subscriptionFilter": null,
+    "outputFilter": null,
+    "createdAt": "2024-06-17T21:30:42.635Z",
+    "updatedAt": "2024-10-29T17:12:52.248Z",
+    "__v": 0
+  },
+  {
+    "_id": "6670ab02f446b4f1a67b3336",
+    "name": " Text Capability",
+    "logicalCollection": "67200e060a342cc6ff42dd22",
+    "alias": "TextCapability",
+    "llmModel": "CLAUDE_3_5_SONNET_V2",
+    "description": "This is a description for  Text Capability agent.",
+    "prompts": [
+      "6670ab02f446b4f1a67b32f6",
+      "6670ab02f446b4f1a67b32f8",
+      "6670ab02f446b4f1a67b32fc",
+      "6695d849888b8bcf4b03be32"
+    ],
+    "outputMode": "SYNCHRONOUS_EXECUTION_AGGREGATE",
+    "subscriptionFilter": null,
+    "outputFilter": null,
+    "createdAt": "2024-06-17T21:30:42.645Z",
+    "updatedAt": "2024-10-29T17:12:52.248Z",
+    "__v": 0
+  },
+  {
+    "_id": "6670ab02f446b4f1a67b3338",
+    "name": " Ellipse Capability",
+    "logicalCollection": "67200e060a342cc6ff42dd22",
+    "alias": "EllipseCapability",
+    "llmModel": "CLAUDE_3_5_SONNET_V2",
+    "description": "This is a description for  Ellipse Capability agent.",
+    "prompts": [
+      "6670ab02f446b4f1a67b32f6",
+      "6670ab02f446b4f1a67b32f8",
+      "6670ab02f446b4f1a67b32ff",
+      "6695d849888b8bcf4b03be32"
+    ],
+    "outputMode": "SYNCHRONOUS_EXECUTION_AGGREGATE",
+    "subscriptionFilter": null,
+    "outputFilter": null,
+    "createdAt": "2024-06-17T21:30:42.650Z",
+    "updatedAt": "2024-10-29T17:12:52.248Z",
+    "__v": 0
+  },
+  {
+    "_id": "6670ab02f446b4f1a67b333a",
+    "name": " Polygon Capability",
+    "logicalCollection": "67200e060a342cc6ff42dd22",
+    "alias": "PolygonCapability",
+    "llmModel": "CLAUDE_3_5_SONNET_V2",
+    "description": "This is a description for Polygon Capability agent.",
+    "prompts": [
+      "6670ab02f446b4f1a67b32f6",
+      "6670ab02f446b4f1a67b32f8",
+      "6670ab02f446b4f1a67b32fe",
+      "6695d849888b8bcf4b03be32"
+    ],
+    "outputMode": "SYNCHRONOUS_EXECUTION_AGGREGATE",
+    "subscriptionFilter": null,
+    "outputFilter": null,
+    "createdAt": "2024-06-17T21:30:42.658Z",
+    "updatedAt": "2024-10-29T17:12:52.248Z",
+    "__v": 0
+  },
+  {
+    "_id": "6688969bb32be1363c756056",
+    "name": "Freedraw Capability",
+    "logicalCollection": "67200e060a342cc6ff42dd22",
+    "alias": "FreedrawCapability",
+    "llmModel": "CLAUDE_3_5_SONNET_V2",
+    "description": "Allows the model to freedraw without going through using a function",
+    "prompts": [
+      "6670ab02f446b4f1a67b32f6",
+      "6670ab02f446b4f1a67b32f8",
+      "6688a06ab32be1363c756078",
+      "6695d849888b8bcf4b03be32"
+    ],
+    "outputMode": "SYNCHRONOUS_EXECUTION_AGGREGATE",
+    "subscriptionFilter": null,
+    "outputFilter": null,
+    "createdAt": "2024-07-06T00:58:03.553Z",
+    "updatedAt": "2024-10-29T17:12:52.248Z",
+    "__v": 0
+  },
+  {
+    "_id": "67211fbe1648c17f768ea387",
+    "name": "Author",
+    "logicalCollection": "67211aca1648c17f768ea367",
+    "alias": "author",
+    "llmModel": "CLAUDE_3_5_SONNET_V2",
+    "description": "A test agent for verifying the Agent are working.",
+    "prompts": [],
+    "outputMode": "STREAMING_INDIVIDUAL",
+    "subscriptionFilter": null,
+    "outputFilter": null,
+    "createdAt": "2024-10-29T17:47:42.375Z",
+    "updatedAt": "2024-10-29T17:47:42.375Z",
+    "__v": 0
+  }
+]

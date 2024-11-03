@@ -1,0 +1,56 @@
+@import "../../css/variables.module.scss";
+
+.excalidraw {
+  .collab-button {
+    --button-bg: var(--color-primary);
+    --button-color: var(--color-surface-lowest);
+    --button-border: var(--color-primary);
+
+    --button-width: var(--lg-button-size);
+    --button-height: var(--lg-button-size);
+
+    --button-hover-bg: var(--color-primary-darker);
+    --button-hover-border: var(--color-primary-darker);
+
+    --button-active-bg: var(--color-primary-darker);
+
+    box-shadow: 0 0 0 1px var(--color-surface-lowest);
+    margin: 0 0 0 0.5rem;
+
+    flex-shrink: 0;
+
+    &:disabled {
+      cursor: default;
+      color: var(--color-on-surface);
+      --button-bg: var(--color-disabled);
+      --button-color: var(--color-disabled);
+      --button-border: var(--color-disabled);
+      --button-hover-bg: var(--color-disabled);
+      --button-hover-border: var(--color-disabled);
+      --button-active-bg: var(--color-disabled);
+
+      &:active,
+      &:focus-visible,
+      &:hover {
+        border-color: var(--color-disabled);
+        box-shadow: none;
+      }
+    }
+
+    // double .active to force specificity
+    &.active.active {
+      background-color: #0fb884;
+      border-color: #0fb884;
+
+      svg {
+        color: #fff;
+      }
+
+      &:hover,
+      &:active {
+        background-color: #0fb884;
+        border-color: #0fb884;
+      }
+    }
+  }
+}

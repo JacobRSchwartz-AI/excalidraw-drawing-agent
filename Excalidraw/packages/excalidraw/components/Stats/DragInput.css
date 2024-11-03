@@ -1,0 +1,87 @@
+.excalidraw .drag-input-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.excalidraw .drag-input-container:focus-within {
+  -webkit-box-shadow: 0 0 0 1px var(--color-primary-darkest);
+          box-shadow: 0 0 0 1px var(--color-primary-darkest);
+  border-radius: var(--border-radius-lg);
+}
+
+.excalidraw .disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.excalidraw .drag-input-label {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border: 1px solid var(--default-border-color);
+  border-right: 0;
+  width: 2rem;
+  height: 2rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: var(--popup-text-color);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+:root[dir="ltr"] .excalidraw .drag-input-label {
+  border-radius: var(--border-radius-lg) 0 0 var(--border-radius-lg);
+}
+
+:root[dir="rtl"] .excalidraw .drag-input-label {
+  border-radius: 0 var(--border-radius-lg) var(--border-radius-lg) 0;
+  border-right: 1px solid var(--default-border-color);
+  border-left: 0;
+}
+
+.excalidraw .drag-input {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  font-size: 0.875rem;
+  font-family: inherit;
+  background-color: transparent;
+  color: var(--text-primary-color);
+  border: 0;
+  outline: none;
+  height: 2rem;
+  border: 1px solid var(--default-border-color);
+  border-left: 0;
+  letter-spacing: 0.4px;
+  padding: 0.5rem;
+  padding-left: 0.25rem;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+:root[dir="ltr"] .excalidraw .drag-input {
+  border-radius: 0 var(--border-radius-lg) var(--border-radius-lg) 0;
+}
+
+:root[dir="rtl"] .excalidraw .drag-input {
+  border-radius: var(--border-radius-lg) 0 0 var(--border-radius-lg);
+  border-left: 1px solid var(--default-border-color);
+  border-right: 0;
+}
+
+.excalidraw .drag-input:focus-visible {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+/*# sourceMappingURL=DragInput.css.map */

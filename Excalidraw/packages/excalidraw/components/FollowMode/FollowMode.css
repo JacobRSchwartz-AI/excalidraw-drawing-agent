@@ -1,0 +1,71 @@
+.excalidraw .follow-mode {
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  pointer-events: none;
+  border: 2px solid var(--color-primary-hover);
+  z-index: 9999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.excalidraw .follow-mode__badge {
+  background-color: var(--color-primary-hover);
+  color: var(--color-primary-light);
+  padding: 0.25rem 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  pointer-events: all;
+  font-size: 0.75rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.excalidraw .follow-mode__badge__label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  white-space: pre-wrap;
+  line-height: 1;
+}
+
+.excalidraw .follow-mode__badge__username {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100px;
+}
+
+.excalidraw .follow-mode__disconnect-btn {
+  all: unset;
+  cursor: pointer;
+  border-radius: 0.25rem;
+}
+
+.excalidraw .follow-mode__disconnect-btn:hover {
+  background-color: var(--color-primary-darker);
+}
+
+.excalidraw .follow-mode__disconnect-btn:active {
+  background-color: var(--color-primary-darkest);
+}
+
+.excalidraw .follow-mode__disconnect-btn svg {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+}
+/*# sourceMappingURL=FollowMode.css.map */

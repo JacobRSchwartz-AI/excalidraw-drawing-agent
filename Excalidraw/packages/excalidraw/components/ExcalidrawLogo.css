@@ -1,0 +1,67 @@
+.excalidraw .ExcalidrawLogo {
+  --logo-icon--xs: 2rem;
+  --logo-text--xs: 1.5rem;
+  --logo-icon--small: 2.5rem;
+  --logo-text--small: 1.75rem;
+  --logo-icon--normal: 3rem;
+  --logo-text--normal: 2.2rem;
+  --logo-icon--large: 90px;
+  --logo-text--large: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 3rem;
+}
+
+.excalidraw .ExcalidrawLogo svg {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+
+.excalidraw .ExcalidrawLogo .ExcalidrawLogo-icon {
+  width: auto;
+  color: var(--color-logo-icon);
+}
+
+.excalidraw .ExcalidrawLogo .ExcalidrawLogo-text {
+  margin-left: 0.75rem;
+  width: auto;
+  color: var(--color-logo-text);
+}
+
+.excalidraw .ExcalidrawLogo.is-xs .ExcalidrawLogo-icon {
+  height: var(--logo-icon--xs);
+}
+
+.excalidraw .ExcalidrawLogo.is-xs .ExcalidrawLogo-text {
+  height: var(--logo-text--xs);
+}
+
+.excalidraw .ExcalidrawLogo.is-small .ExcalidrawLogo-icon {
+  height: var(--logo-icon--small);
+}
+
+.excalidraw .ExcalidrawLogo.is-small .ExcalidrawLogo-text {
+  height: var(--logo-text--small);
+}
+
+.excalidraw .ExcalidrawLogo.is-normal .ExcalidrawLogo-icon {
+  height: var(--logo-icon--normal);
+}
+
+.excalidraw .ExcalidrawLogo.is-normal .ExcalidrawLogo-text {
+  height: var(--logo-text--normal);
+}
+
+.excalidraw .ExcalidrawLogo.is-large .ExcalidrawLogo-icon {
+  height: var(--logo-icon--large);
+}
+
+.excalidraw .ExcalidrawLogo.is-large .ExcalidrawLogo-text {
+  height: var(--logo-text--large);
+}
+/*# sourceMappingURL=ExcalidrawLogo.css.map */

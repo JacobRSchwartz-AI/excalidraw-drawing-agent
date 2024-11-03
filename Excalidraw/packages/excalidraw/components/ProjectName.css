@@ -1,0 +1,31 @@
+.ProjectName {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ProjectName .TextInput {
+  height: calc(1rem - 3px);
+  width: 200px;
+  overflow: hidden;
+  text-align: center;
+  margin-left: 8px;
+  text-overflow: ellipsis;
+}
+
+.ProjectName .TextInput--readonly {
+  background: none;
+  border: none;
+  width: auto;
+  max-width: 200px;
+  padding-left: 2px;
+}
+
+.ProjectName .TextInput--readonly:hover {
+  background: none;
+}
+/*# sourceMappingURL=ProjectName.css.map */

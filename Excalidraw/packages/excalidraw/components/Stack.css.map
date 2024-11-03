@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACE,WADS,CACT,MAAM,CAAC;EACL,KAAK,CAAA,EAAC;EACN,OAAO,EAAE,IAAI;EACb,GAAG,EAAE,sCAAsC;CAC5C;;AALH,AAOE,WAPS,CAOT,eAAe,CAAC;EACd,qBAAqB,EAAE,IAAI;EAC3B,cAAc,EAAE,GAAG;EACnB,cAAc,EAAE,WAAW;CAC5B;;AAXH,AAaE,WAbS,CAaT,iBAAiB,CAAC;EAChB,kBAAkB,EAAE,IAAI;EACxB,cAAc,EAAE,MAAM;EACtB,iBAAiB,EAAE,WAAW;CAC/B",
+    "sources": [
+        "Stack.scss"
+    ],
+    "names": [],
+    "file": "Stack.css"
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAEI,WAFO,CACT,cAAc,CACZ,OAAO,CAAC;EACN,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;CACvB;;AANL,AASE,WATS,CAST,sBAAsB,CAAC;EACrB,OAAO,EAAE,WAAW;CACrB;;AAXH,AAaE,WAbS,CAaT,uBAAuB,CAAC;EACtB,UAAU,EAAE,IAAI;EAChB,YAAY,EAAE,IAAI;CACnB",
+    "sources": [
+        "MagicSettings.scss"
+    ],
+    "names": [],
+    "file": "MagicSettings.css"
+}

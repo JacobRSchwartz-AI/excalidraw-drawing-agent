@@ -1,0 +1,24 @@
+.excalidraw .ActiveFile .ActiveFile__fileName {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.excalidraw .ActiveFile .ActiveFile__fileName span {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 9.3em;
+}
+
+.excalidraw .ActiveFile .ActiveFile__fileName svg {
+  width: 1.15em;
+  -webkit-margin-end: 0.3em;
+          margin-inline-end: 0.3em;
+  -webkit-transform: scaleY(0.9);
+          transform: scaleY(0.9);
+}
+/*# sourceMappingURL=DefaultItems.css.map */

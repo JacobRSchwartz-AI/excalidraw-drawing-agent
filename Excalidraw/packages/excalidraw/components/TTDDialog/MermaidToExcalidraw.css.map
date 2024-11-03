@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAEI,WAFO,CAEN,qBAAM,CAAC;EACN,YAAY,EAAE,OAAO;EACrB,SAAS,EAAE,OAAO;EAClB,WAAW,EAAE,GAAG;EAChB,cAAc,EAAE,MAAM;CACvB",
+    "sources": [
+        "MermaidToExcalidraw.scss"
+    ],
+    "names": [],
+    "file": "MermaidToExcalidraw.css"
+}
