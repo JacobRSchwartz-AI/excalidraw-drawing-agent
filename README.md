@@ -7,6 +7,12 @@
 
 An AI-powered drawing assistance system built on Excalidraw, featuring a GraphQL backend and an agent management dashboard.
 
+## Drawing Agent Demo
+https://github.com/user-attachments/assets/8eaa30e0-3d4e-4c16-b0af-a0a968fdab0e
+
+## Agent Lab Demo
+https://github.com/user-attachments/assets/417392dd-fed3-4a60-8045-c542b85cc409
+
 ## Project Structure
 
 This monorepo contains three main components:
